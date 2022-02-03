@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  
+  background: #34495e;
 }
 .box{
   width: 300px;
@@ -50,7 +50,9 @@ body{
   color: white;
   border-radius: 24px;
   transition: 0.25s;
-  
+  display: block;
+  border: 2px solid #2ecc71;
+  cursor: pointer;
 }
 .box input[type = "submit"]:hover{
   background: #2ecc71;
